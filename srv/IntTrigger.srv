@@ -1,6 +1,6 @@
-# A trigger service used to actuate Espresso's head
+# A trigger service using unsigned integers
 
 
 ---
 bool success    # indicate successful run of triggered service
-uint32 state     # desired state
+uint32 message  # desired message
