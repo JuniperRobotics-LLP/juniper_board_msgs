@@ -1,6 +1,6 @@
 # A trigger service using unsigned integers
 
-
+int32 data      # data being sent through the call
 ---
 bool success    # indicate successful run of triggered service
-uint32 message  # desired message
+string message  # informational, e.g. for error messages
