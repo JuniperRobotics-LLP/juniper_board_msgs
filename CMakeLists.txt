@@ -18,6 +18,7 @@ set(msg_files
 
 set(srv_files
   "srv/IntTrigger.srv"
+  "srv/BoolEstop.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

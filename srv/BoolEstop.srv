@@ -1,0 +1,6 @@
+# A trigger service for the Juniper Soft Estop
+
+bool estop      # Estop engage/disengage
+---
+bool success    # indicate successful change of estop state
+string message  # indicate whether estop is engage or disengaged
